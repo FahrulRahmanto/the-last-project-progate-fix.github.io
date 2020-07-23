@@ -1,0 +1,94 @@
+body, html {
+	font-family: "Helvetica Neue";
+}
+
+h1,
+h2 {
+    text-align: center;
+    text-shadow: 1px 1px gray;
+    font-family: Georgia;
+}
+
+.calculator {
+	text-align: center;
+	margin: 0 auto;
+	padding: 10px;
+	width: 400px;
+    opacity: 500%;
+	border-radius: 7px;
+	background-color: #808080;
+	box-shadow: 0 15px darkgray, 0 16px #000;
+	border: 1px solid black;
+}
+
+.calculator-screen {
+	width: 100%;
+	height: 100%;
+	background-color: #252525;
+	color: #fff;
+	text-align: right;
+	font-size: 40px;
+	border: none;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+.calculator-keys {
+	width: 100%;
+}
+
+.row {
+	display: flex;
+}
+
+input, button, {
+	font-family: 'Roboto Mono', monospace;
+}
+
+.calculator-message {
+	width: 100%;
+	padding: 5px;
+	color: white;
+	background-color: #252525;
+	box-sizing: border-box;
+	color: #252525;
+	display: inline-block;
+	text-align: right;
+	height: 30px;
+	margin: 0;
+}
+
+button {
+	height: 80px;
+	border-radius: 10px;
+	margin: 10px 5px;
+	background-color: gray;
+	border: 1px solid black;
+	font-size: 28px;
+	color: #fff;
+	width: 25%;
+	outline: none;
+	box-shadow: 0 7px darkgray, 0 8px black;
+}
+
+button:active {
+	margin-bottom: 0;
+	box-shadow: none;
+}
+
+.zero-btn {
+	width: 25%;
+}
+
+.operator, .equal-sign {
+	background-color: orange;
+	box-shadow: 0 7px darkorange, 0 8px black;
+}
+
+button:hover {
+	background-color: darkgray;
+}
+
+.operator:hover, .equal-sign:hover {
+	background-color: darkorange;
+}
